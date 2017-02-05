@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="startApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-resource.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
+    <script type="text/javascript" src="/js/controllers/homeController.js"></script>
+</head>
+<body ng-controller="homeController">
+<h4>hi</h4>
+<p>I am Subash Jain. My phone number is {{phone}}. My email address is {{mail}}.</p>
+<p>My social contacts are the following
+    <ul>
+        <li>{{social.linkedin}}</li>
+        <li>{{social.twitter}}</li>
+        <li>{{social.skype}}</li>
+    </ul>
+</p>
+<p>My address is {{address.street}}, {{address.state}}</p>
+</body>
+</html>
